@@ -1,4 +1,4 @@
-#device
+# device
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
 # Telephony
