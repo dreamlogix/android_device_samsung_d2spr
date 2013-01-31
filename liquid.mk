@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2012 The Carbon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,18 +19,18 @@
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
 # phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # telephony
-$(call inherit-product, vendor/liquid/config/common_cdma.mk)
+$(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
 # product
 PRODUCT_DEVICE := d2spr
 PRODUCT_BRAND := samsung
-PRODUCT_NAME := liquid_d2spr
+PRODUCT_NAME := carbon_d2spr
 PRODUCT_MODEL := SPH-L710
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.d2spr.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.d2spr.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
