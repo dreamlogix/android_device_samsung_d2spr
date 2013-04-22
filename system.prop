@@ -21,3 +21,8 @@ dalvik.vm.heapminfree=2m
 dalvik.vm.heapstartsize=32m
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heaputilization=0.75
+telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
+
