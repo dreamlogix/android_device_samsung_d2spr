@@ -24,12 +24,7 @@ $(call inherit-product, vendor/carbon/config/common_phone.mk)
 # telephony
 $(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
-# product
-PRODUCT_DEVICE := d2spr
-PRODUCT_BRAND := samsung
-PRODUCT_NAME := carbon_d2spr
-PRODUCT_MODEL := SPH-L710
-PRODUCT_MANUFACTURER := Samsung
+#build
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.d2spr.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # override
